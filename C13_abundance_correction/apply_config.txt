@@ -1,9 +1,9 @@
 [options]
-pynacDir = "pynac"
-inFile = "input.xlsx"
+pynacDir = /Users/xzt/Duke_work/myscripts/MS/C13_abundance_correction/
+inFile = /Users/xzt/Duke_work/myscripts/MS/data/inputFile_test.xlsx
 formulaCol = 2
 ##formulaPatten: C13_count and formular is necessary
-formulaPattern = r'^(?P<C13_count>\d+)\[13C\](?P<formula>\S+)$' 
-intensityCols = [4,5,6,7]
-outFile ="output.csv"
+formulaPattern = ^(?P<C13_count>\d+)\[13C\](?P<formula>\S+)$
+intensityCols = [4,5,6,7,8,9]
+outFile =output.csv
 
