@@ -1,0 +1,9 @@
+[options]
+pynacDir = "pynac"
+inFile = "input.xlsx"
+formulaCol = 2
+##formulaPatten: C13_count and formular is necessary
+formulaPattern = r'^(?P<C13_count>\d+)\[13C\](?P<formula>\S+)$' 
+intensityCols = [4,5,6,7]
+outFile ="output.csv"
+
