@@ -4,7 +4,7 @@
   - apply_config.txt
   - pynac
 2. change the settings in *apply_config.txt* file
-3. run: python apply_pynac.py
+3. run: python apply_pynac.py apply_config.txt
 
 **Note**: The default C13 abundance is 0.01109, users can change this value at line 30 of this file: pynac/core/isotopelabels.py 
 
